@@ -17,8 +17,8 @@
     
     <Grid>
         <StackPanel>
-            <TextBox Header="Name" />
-            <TextBox Header="Email"/>
+            <TextBox Header="Name" Style="{StaticResource CoolTextBox}" />
+            <TextBox Header="Email" Style="{StaticResource LocalTextBox}"/>
             <CheckBox Content="Is this true?"/>
             <Button Background="LightBlue" Foreground="White" Content="Go">
             <!--    <Button.Template>
@@ -26,7 +26,7 @@
                         <Polygon Points="0,0 30,20 0,40"
                                  Fill="{TemplateBinding Background}"/>
                     </ControlTemplate>
-                </Button.Template> -->
+                </Button.Template>-->
             </Button>
         </StackPanel>
     </Grid>
